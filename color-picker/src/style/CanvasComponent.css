@@ -1,0 +1,39 @@
+.out {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    min-height: auto;
+}
+
+.inputs {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    margin: 5px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+
+.colorPaletts{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.colorPalette{
+    display: flex;
+    flex-direction: row;
+}
+
